@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+         @font-face {
+	font-family: 'FontOfKindness';
+	src: url('fonts/fontofkindness.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/fontofkindness.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/fontofkindness.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/fontofkindness.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/fontofkindness.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/fontofkindness.svg#fontofkindness') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+body {
+margin: 0;
+padding: 0;
+}
+.gr{
+         
+         /* background-image: url(images/gr.svg);
+         background-size: cover; */
+         height: 900px;
+background-repeat: no-repeat;
+ position: absolute;
+ background-color: black;
+ margin-top: 0px;
+ width: 1480px
+
+}
+ .menuname {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Montserrat';
+font-weight: 400;
+font-size: 20px;
+text-transform: uppercase;
+color: #fff;
+margin-left: 452px;
+margin-right: 452px;
+mix-blend-mode: difference;
+margin-top: -75px;
+
+}
+
+.logo {
+    font-family: 'FontOfKindness';
+font-weight: 400;
+font-size: 40px;
+text-transform: uppercase;
+color: #fff;
+display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin-left: 39px;
+}
+.icons{
+display: flex;
+justify-content: flex-end;
+align-items: start;
+margin-right: 39px;
+margin-top: -40px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.slideshow-container {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+        }
+        .mySlides {
+            display: none;
+            width: 100%;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        .page {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .white {
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: -600px;
+    z-index: 100;
+}
+.buy {
+    font-family: "Montserrat";
+font-weight: 400;
+font-size: 40px;
+color: #000;
+position: absolute;
+margin-left: 1180px;
+margin-top: -565px;
+z-index: 110;
+}
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+    
+    body {
+        
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+     
+        
+    }
+  
+    
+}
+@media only screen and (min-width: 1366px) and (max-width: 1440px) {
+    body {
+        width: 100%;
+    }
+    
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    body {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+   
+}
+@media only screen and (min-width: 360px) and (max-width: 414px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+  
+    .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            margin-top: 200px;
+          
+        }
+        .gr{
+         
+         /* background-image: url(images/gr.svg);
+         background-size: cover; */
+         /* height: 1500px; */
+background-repeat: no-repeat;
+ position: absolute;
+ background-color: black;
+ margin-top: 0px;
+ height: 3000px;
+ width: 1480px
+ 
+
+}
+.menuname {
+    display: flex;
+    justify-content: space-around;
+font-size: 32px;
+margin-left: 310px;
+margin-right: 310px;
+margin-top: 57px;
+}
+.logo {
+   
+    display: none;
+}
+.icons{
+    display: none;
+
+}
+.page {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 900px;
+        }
+}
+@media only screen and (max-width: 360px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    
+  
+    .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            margin-top: 200px;
+          
+        }
+        .gr{
+         
+         /* background-image: url(images/gr.svg);
+         background-size: cover; */
+         /* height: 1500px; */
+background-repeat: no-repeat;
+ position: absolute;
+ background-color: black;
+ margin-top: 0px;
+ height: 3000px;
+ width: 1480px
+ 
+
+}
+.menuname {
+    display: flex;
+    justify-content: space-around;
+font-size: 32px;
+margin-left: 310px;
+margin-right: 310px;
+margin-top: 57px;
+}
+.logo {
+   
+    display: none;
+}
+.icons{
+    display: none;
+
+}
+.page {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 900px;
+        }
+}
+    </style>
+    <div class="gr">
+        <div class="menu">
+            <a href="index.html"><p class="logo">neirolab</p></a>
+            <div class="menuname">
+                <a href="poster.html">мероприятия</a>
+                <a href="shop.html">мерч</a>
+                <a href="space.html">пространство</a>
+        </div>
+        <div class="icons">
+            <a href="https://milovidova.github.io/jsposter/"><img src="images/firsticon.svg" alt="firsticon"></a>
+            <a href="https://milovidova.github.io/webposter/"><img src="images/secondicon.svg" alt="secondicon"></a>
+        </div>
+
+    </div>
+
+
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <div class="page"><img src="images/onep.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/twop.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/threep.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/fourp.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/fivep.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/sixp.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/sevenp.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/eightp.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/ninep.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/tenp.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/elevenp.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/twelvep.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/pageone.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/pagetwo.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/pagethree.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/pagefour.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/pagefive.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/pagesix.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/pageseven.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+        <div class="mySlides">
+            <div class="page"><img src="images/pageeight.png" style="width:949.41px" height="673.26px"></div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+  <div class="white"><img src="images/white.svg" alt="white"></div>
+        <div class="buy"><p>купить</p></div>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+    
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+    
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex-1].style.display = "block";
+        }
+    </script>
+</body>
+</html>

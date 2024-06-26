@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <style>
+        @font-face {
+	font-family: 'FontOfKindness';
+	src: url('fonts/fontofkindness.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/fontofkindness.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/fontofkindness.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/fontofkindness.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/fontofkindness.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/fontofkindness.svg#fontofkindness') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+body {
+margin: 0;
+padding: 0;
+}
+
+        .back{
+         
+            background-image: url(images/fss.svg);
+            /* background-size: cover; */
+            height: 900px;
+background-repeat: no-repeat;
+    position: absolute;
+    background-color: black;
+    margin-top: 0px;
+    width: 1480px
+    
+        }
+/* .name {
+    font-family: var(--third-family);
+font-weight: 400;
+font-size: 280px;
+color: #fff;
+} */
+/* .background {
+    color: black;
+    
+} */
+
+/* .background {
+   
+    height: 1300px;
+    background-image: url("image/firstscreen.svg");
+    background-size: cover;
+    position: absolute;
+    background-color: black;
+    margin-top: -450px;
+    width: 1440px
+} */
+.name {
+    font-family: 'FontOfKindness';
+font-weight: 400;
+font-size: 280px;
+color: #fff;
+text-transform: uppercase;
+text-align: center;
+mix-blend-mode: difference;
+display: flex;
+align-items: center;
+justify-content: center;
+/* height: 1024px; */
+height: 100px;
+margin-top: 200px;
+}
+/* .lab {
+    font-family: 'FontOfKindness';
+font-weight: 400;
+font-size: 89px;
+color: #fff;
+display: flex;
+justify-content: flex-start;
+align-items: end;
+margin-left: 80px;
+}
+.number {
+    
+    font-family: 'FontOfKindness';
+font-weight: 400;
+font-size: 89px;
+color: #fff;
+display: flex;
+justify-content: flex-end;
+align-items: end;
+margin-right: 80px;
+margin-top: 700px;
+} */
+.two {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'FontOfKindness';
+font-weight: 400;
+font-size: 89px;
+color: #fff;
+
+margin-top: -60px;
+margin-left: 80px;
+margin-right: 80px;
+
+}
+
+.menuname {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Montserrat';
+font-weight: 400;
+font-size: 20px;
+text-transform: uppercase;
+color: #fff;
+margin-left: 452px;
+margin-right: 452px;
+mix-blend-mode: difference;
+margin-top: -75px;
+
+}
+
+.logo {
+    font-family: 'FontOfKindness';
+font-weight: 400;
+font-size: 40px;
+text-transform: uppercase;
+color: #fff;
+display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin-left: 39px;
+}
+.icons{
+display: flex;
+justify-content: flex-end;
+align-items: start;
+margin-right: 39px;
+margin-top: -40px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* .about {
+    font-size: 90px;
+    font-family: 'Montserrat';
+    color: #fff;
+
+} */
+
+@media only screen and (min-width: 1440px) and (max-width: 1920px) {
+    
+    body {
+        
+        max-width: 1440px;
+      
+        
+    }
+    .background {
+    width: 1440px;
+}
+    
+}
+@media only screen and (min-width: 1366px) and (max-width: 1440px) {
+    body {
+        width: 100%;
+    }
+    .background {
+    width: 1440px;}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    body {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        width: 100%;
+    }
+   
+     /* .menuname {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Montserrat';
+font-weight: 400;
+font-size: 20px;
+text-transform: uppercase;
+color: #fff;
+
+mix-blend-mode: difference;
+margin-top: 0px;
+margin-left: 25vw;
+margin-right: 25vw;
+
+} */
+
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+@media only screen and (min-width: 360px) and (max-width: 414px) {
+    body {
+        width: 100%;
+        /* height: 100%; */
+        height: 900px;
+    }
+ 
+ 
+    .menuname {
+    display: flex;
+    justify-content: space-around;
+font-size: 33px;
+margin-left: 100px;
+margin-right: 100px;
+/* margin-top: 20px; */
+margin-top: 160px;
+}
+.logo {
+   
+   display: none;
+}
+.icons{
+   display: none;
+
+}
+.back{
+         
+         background-image: url(images/mob.svg);
+         background-size: cover;
+         /* height: 1000px; */
+background-repeat: no-repeat;
+ position: absolute;
+ background-color: black;
+ margin-top: -100px;
+ width: 1200px;
+ height: 2300px;
+ /* width: 1480px */
+ 
+     }
+     .name {
+font-size: 230px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+/* height: 1024px; */
+height: 900px;
+/* margin-top: 700px; */
+}
+.two {
+    display: block;
+    /* align-items: center;
+    justify-content: center; */
+    font-family: 'FontOfKindness';
+font-weight: 400;
+font-size: 120px;
+color: #fff;
+text-align: center;
+margin-top: 400px;
+margin-left: 90px;
+margin-right: 80px;
+
+}
+
+}
+
+
+@media only screen and (max-width: 360px) {
+    body {
+        width: 100%;
+        /* height: 100%; */
+        height: 900px;
+    }
+ 
+ 
+    .menuname {
+    display: flex;
+    justify-content: space-around;
+font-size: 33px;
+margin-left: 100px;
+margin-right: 100px;
+/* margin-top: 20px; */
+margin-top: 160px;
+}
+.logo {
+   
+   display: none;
+}
+.icons{
+   display: none;
+
+}
+.back{
+         
+         background-image: url(images/mob.svg);
+         background-size: cover;
+         /* height: 1000px; */
+background-repeat: no-repeat;
+ position: absolute;
+ background-color: black;
+ margin-top: -100px;
+ width: 1200px;
+ height: 2300px;
+ /* width: 1480px */
+ 
+     }
+     .name {
+font-size: 230px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+/* height: 1024px; */
+height: 900px;
+/* margin-top: 700px; */
+}
+.two {
+    display: block;
+    /* align-items: center;
+    justify-content: center; */
+    font-family: 'FontOfKindness';
+font-weight: 400;
+font-size: 120px;
+color: #fff;
+text-align: center;
+margin-top: 400px;
+margin-left: 90px;
+margin-right: 80px;
+
+}
+}
+
+
+
+    </style>
+    <section class="background">
+    <div class="back">
+        <div class="menu">
+        <p class="logo">neirolab</p>
+        <div class="menuname">
+            <a href="poster.html">мероприятия</a>
+            <a href="shop.html">мерч</a>
+            <a href="space.html">пространство</a>
+            
+    </div>
+    <div class="icons">
+        <a href="https://milovidova.github.io/jsposter/"><img src="images/firsticon.svg" alt="firsticon"></a>
+        <a href="https://milovidova.github.io/webposter/"><img src="images/secondicon.svg" alt="secondicon"></a>
+    </div>
+    </div>
+        <p class="name">нейролаб</p>
+        <div class="two">
+        <a href="about.html"><p class="lab">лаборатория</p></a>
+        <p class="number">2024</p>
+        </div>
+    </div>
+</section>
+<!-- 
+<div class="about"><p>о нас</p></div>
+<script>
+    window.onscroll = function() {
+  var posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
+  
+  document.body.style.backgroundPosition =  'center -' + posTop/5 + 'px';
+}
+</script> -->
+
+
+</body>
+</html>
